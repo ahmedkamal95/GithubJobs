@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity implements HomeContract.Home
     public void setJobsList(List<Job> jobList) {
         this.jobList.addAll(jobList);
         recyclerAdapter.notifyDataSetChanged();
-        Toast.makeText(this, jobList.size()+"", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "done", Toast.LENGTH_SHORT).show();
     }
 
     @Override
